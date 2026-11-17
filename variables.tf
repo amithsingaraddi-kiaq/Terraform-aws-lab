@@ -22,3 +22,13 @@ variable "private_subnet_cidr" {
   description = "CIDR block for the private subnet"
   type        = string
 }
+
+variable "instance_type" {
+  description = "EC2 instance type"
+  type        = string
+}
+
+variable "allowed_ssh_cidr" {
+  description = "CIDR allowed to SSH into the instance"
+  type        = string
+}
