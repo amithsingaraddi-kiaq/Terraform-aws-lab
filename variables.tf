@@ -32,3 +32,8 @@ variable "allowed_ssh_cidr" {
   description = "CIDR allowed to SSH into the instance"
   type        = string
 }
+
+variable "bucket_name" {
+  description = "Globally unique name for s3 bucket"
+  type        = string
+}
